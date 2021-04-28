@@ -1,0 +1,18 @@
+#            0   1    2   3  4 
+studentA = [100, 84, 76, 23, 77]
+studentB = [99,  90, 78, 44, 77] 
+
+scoreA = 0
+scoreB = 0
+
+length = len(studentA)
+for i in range(length):
+  if studentA[i] > studentB[i]:
+    scoreA += 1
+  elif studentA[i] < studentB[i]:
+    scoreB += 1
+
+print(studentA)
+print(studentB)
+print("Score A: ", scoreA)
+print("Score B: ", scoreB)
